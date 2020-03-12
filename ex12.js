@@ -20,5 +20,3 @@ function primeNum() {
     return arr;
 }
 console.log(primeNum());
-
-

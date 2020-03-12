@@ -1,7 +1,7 @@
 // Write a JavaScript program to sort an array of all prime numbers between 1 and a given integer.
 const readlineSync = require('readline-sync');
 
-function primeNum() {
+function primeNumbers() {
     console.log('Array of all prime numbers between 1 and n ');
     let n =  readlineSync.question('n = ');
     let arr = [];
@@ -19,4 +19,4 @@ function primeNum() {
     }    
     return arr;
 }
-console.log(primeNum());
+console.log(primeNumbers());

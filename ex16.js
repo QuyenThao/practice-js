@@ -12,8 +12,6 @@ function rockPaperScissors() {
     };
 }
 
-
-
 function play() {
     console.log('Game start.....');
     var player =  rockPaperScissors();

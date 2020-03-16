@@ -8,6 +8,7 @@ function is_monotonous(arr) {
             return false;  
     }
 }
+}
 console.log(is_monotonous([10, 6, -2]));
 console.log(is_monotonous([1, -6, 9]));
 console.log(is_monotonous([-5, -3, 0]));
